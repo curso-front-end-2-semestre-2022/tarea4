@@ -1,4 +1,4 @@
-const notas = [6,8,9,2,5,10];
+const notas = [6,8,9,2,5,10]
 
 function sumaNotas(notas){
     let suma = 0
@@ -19,4 +19,4 @@ function promedioNotas(notas){
     promedio = sumaNotas(notas)/(notas.length)
     return promedio
 }
-console.log(promedioNotas(notas))
+console.log("El promedio de notas es: ", promedioNotas(notas))
